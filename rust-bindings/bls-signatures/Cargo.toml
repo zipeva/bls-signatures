@@ -8,12 +8,12 @@ edition = "2021"
 legacy = []
 bip32 = []
 use_serde = ["serde"]
-dash_helpers = ["rand"]
-default = [ "legacy", "bip32", "dash_helpers", "use_serde"]
-apple = ["bls-dash-sys/apple"]
+zip_helpers = ["rand"]
+default = [ "legacy", "bip32", "zip_helpers", "use_serde"]
+apple = ["bls-zip-sys/apple"]
 
 [dependencies]
-bls-dash-sys = { path = "../bls-dash-sys" }
+bls-zip-sys = { path = "../bls-zip-sys" }
 serde = { version= "1.0.160", features = ["derive"], optional = true}
 rand = { version= "0.8.5", optional = true}
 hex = { version = "0.4.3"}

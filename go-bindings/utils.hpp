@@ -15,7 +15,7 @@
 #pragma once
 
 #include <vector>
-#include "dashbls/bls.hpp"
+#include "zipbls/bls.hpp"
 #include "privatekey.h"
 #include "elements.h"
 

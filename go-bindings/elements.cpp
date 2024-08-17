@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #include <vector>
-#include "dashbls/bls.hpp"
+#include "zipbls/bls.hpp"
 #include "blschia.h"
 #include "error.h"
 #include "elements.h"

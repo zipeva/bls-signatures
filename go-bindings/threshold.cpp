@@ -14,7 +14,7 @@
 
 #include <vector>
 #include <stdint.h>
-#include "dashbls/bls.hpp"
+#include "zipbls/bls.hpp"
 #include "privatekey.h"
 #include "elements.h"
 #include "blschia.h"

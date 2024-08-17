@@ -14,7 +14,7 @@
 
 #include <string>
 #include <stdlib.h>
-#include "dashbls/bls.hpp"
+#include "zipbls/bls.hpp"
 #include "error.h"
 #include "blschia.h"
 
